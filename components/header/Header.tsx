@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
             <a className="text-gray-800 hover:text-gray-400">Visit</a>
           </li>
           <li>
-            <Button>Register Interest</Button>
+            <Button variant="secondary">Register Interest</Button>
           </li>
         </ul>
       </nav>
