@@ -1,13 +1,19 @@
 import Image from "next/image";
-import { Header } from "./components/header";
-import { ScrollingText } from "./components/scrollingText";
 
 export default function Home() {
   return (
     <div>
-      <Header />
-      <ScrollingText />
-      <div className="flex justify-center pt-16 space-x-20">
+      <div>
+        <iframe
+          width="100%"
+          height="790"
+          src="https://www.youtube.com/embed/zuiP2SvZEf4?si=iChkyiF5XWnqVwZI&amp;autoplay=1&amp;mute=1"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="flex justify-center p-16 space-x-20">
         <div className="mr-8 rounded-lg overflow-hidden">
           <Image
             src="/4.png"
