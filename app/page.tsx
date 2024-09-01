@@ -1,6 +1,6 @@
-import { Header } from "@/components/header";
-import { ScrollingText } from "@/components/scrollingText";
 import Image from "next/image";
+import { Header } from "./components/header";
+import { ScrollingText } from "./components/scrollingText";
 
 export default function Home() {
   return (
